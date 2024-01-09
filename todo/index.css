@@ -1,0 +1,39 @@
+body {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.title {
+  color: darkgreen;
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+.underline {
+  height: 3px;
+  width: 100px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-class {
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+}
+.instruction {
+  font-weight: 800;
+  color: grey;
+}
+.todo-input {
+  min-width: 300px;
+  max-width: fit-content;
+}
+.task-container {
+  margin-top: 40px;
+  text-align: left;
+  margin-left: 4.5rem;
+}
+.task-title {
+
+}
