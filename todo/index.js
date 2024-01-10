@@ -57,8 +57,6 @@ function createTodo() {
     }
     
 
-
-
 document.addEventListener('submit', (e) => {
     e.preventDefault();
     createTodo();
