@@ -1,13 +1,20 @@
 body {
   width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+    margin-right: auto; */
   text-align: center;
+  margin-top: 0;
+  background-color: rgb(43, 40, 40);
 }
 .title {
-  color: darkgreen;
+  color: brown;
   font-size: 32px;
   margin-bottom: 4px;
+}
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .underline {
   height: 3px;
@@ -16,24 +23,118 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.form-class {
-  width: 500px;
-  text-align: center;
-  margin-top: 50px;
+.level {
+  position: relative;
+  top: 60px;
+  margin-left: 25%;
+  width: 100%;
+  margin-top: 80px;
+  display: grid;
+  margin-bottom: 150px;
+  text-align: left;
 }
 .instruction {
-  font-weight: 800;
-  color: grey;
+  padding: 0.08em;
+  color: white;
+  font-size: 32px;
+}
+.form-class {
+  display: flex;
+  justify-content: stretch;
+  margin-left: auto;
+  margin-right: auto;
 }
 .todo-input {
-  min-width: 300px;
-  max-width: fit-content;
+  min-width: 730px;
+  min-height: 30px;
+  border: 3px solid white;
 }
-.task-container {
-  margin-top: 40px;
-  text-align: left;
-  margin-left: 4.5rem;
+.submit-btn {
+  height: 38px;
+  margin-top: 16px;
+  padding: auto;
+  color: white;
+  background-color: rgb(244, 122, 77);
+  font-size: 16px;
+  border: 1px solid white;
 }
-.task-title {
 
+.vertical-card {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  /* -ms-transform: translateY(-10%);
+  transform: translateY(-50%);
+  */
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+  min-width: max-content;
+}
+.tasks-title {
+  color: brown;
+  margin-bottom: 8px;
+}
+.tasks-result {
+  margin-bottom: 100px;
+}
+.tasks-result ol li {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  /* width: max-content; */
+}
+.tasks-container {
+  text-align: left;
+}
+.tasks {
+  margin-top: 60px;
+}
+.todo-title {
+  padding-bottom: 20px;
+}
+.todo-icons {
+  text-transform: capitalize;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 8em;
+}
+input[type="checkbox"] {
+  accent-color: green;
+}
+.icon {
+  padding: 1rem;
+  background-color: rgb(5, 0, 0);
+}
+.checkbox,
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.completed {
+  display: flex;
+  text-transform: lowercase;
+  font-size: 20px;
+  margin-top: auto;
+  margin-bottom: 5%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  bottom: 0%;
+  border: 2px solid rgb(244, 122, 77);
+  background-color: rgb(244, 122, 77);
+  text-transform: capitalize;
+}
+.danger {
+  color: rgb(239, 87, 87);
+}
+.warning {
+  color: yellow;
+}
+.success {
+  color: green;
 }
